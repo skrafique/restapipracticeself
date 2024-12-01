@@ -21,6 +21,18 @@ public class EmployeeDto
 
 	private String otp;
 
+	private String gender;
+
+	public String getGender()
+	{
+		return gender;
+	}
+
+	public void setGender(String gender)
+	{
+		this.gender=gender;
+	}
+
 	public String getOtp() {
 		return otp;
 	}
