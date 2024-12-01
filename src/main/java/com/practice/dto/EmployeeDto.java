@@ -19,6 +19,16 @@ public class EmployeeDto
 	
 	private Date date;
 
+	private String otp;
+
+	public String getOtp() {
+		return otp;
+	}
+
+	public void setOtp(String otp) {
+		this.otp = otp;
+	}
+
 	public Date getDate() {
 		return date;
 	}
